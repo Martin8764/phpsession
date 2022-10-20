@@ -1,0 +1,82 @@
+
+*{
+    padding:0.5%;
+    margin:0.5%; 
+  }
+    body{
+    background:url(https://i.ytimg.com/vi/7dkrwPrmH-Y/maxresdefault.jpg);
+    background-size:cover;    
+  }
+    .show {
+    display: block;
+    }
+    .header { 
+      padding: 16px;
+      text-align: center;
+      background: grey;
+      color: white;
+      font-size: 100%;
+      border: solid 1px #080808;
+    }
+  
+    fieldset
+    { 
+    border: solid 1px #080808;
+    background-color:white !important;
+    }
+    legend{
+      font-family:TestFont;
+    }
+    .class1 {
+      padding: 16px;
+      font-size: 25px;
+  
+    }
+  
+    input[type=text], input[type=password], input[type=email] {
+      width: 20%;
+      padding: 5px;
+      margin: 5px 0 10px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    .registerbtn {
+      background-color: grey;
+      text-align: center;
+      float:none;
+      color: black;
+      padding: 8px 10px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 20%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity:1;
+    }
+    
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    #Top{
+      font-size:20px;
+    }
+    #Bottom{
+      font-size:20px;
+      
+    }
+    
+    h3
+    {
+      display: inline;
+    }
